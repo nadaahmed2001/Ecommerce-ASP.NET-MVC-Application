@@ -1,0 +1,53 @@
+﻿@model Ecommerce.Models.RegisterModel
+@{
+    ViewData["Title"] = "Create Account";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="col-md-6" style=" margin-top:50px;">
+            <div class="p-4" style="background-color: #6a3dea; border-radius: 8px; color: white; text-align: center;">
+                <h1 class="my-h1">Create Account</h1>
+            </div>
+            <div class="p-4 mt-3" style="background-color: #fff; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);">
+                <form asp-action="CreateAccount" method="post">
+                    @* <div asp-validation-summary="All" class="text-danger"></div>*@
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email:</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="UserName" class="form-label">Username:</label>
+                        <input asp-for="UserName" class="form-control" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">Password:</label>
+                        <input asp-for="Password" type="password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="ConfirmPassword" class="form-label">Confirm Password:</label>
+                        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Age" class="form-label">Age:</label>
+                        <input asp-for="Age" class="form-control" />
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

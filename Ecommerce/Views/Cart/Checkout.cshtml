@@ -1,0 +1,118 @@
+﻿User
+@model List<Ecommerce.Models.Cart>
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Your custom styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+            padding: 8px;
+        }
+
+        /* ... (other existing styles) ... */
+
+        /* Custom styles for checkout form */
+        .checkout-form {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .checkout-form h2 {
+            text-align: center;
+        }
+
+        .checkout-form .row {
+            margin: 0 -16px;
+        }
+
+        .checkout-form .col-50,
+        .checkout-form .col-25 {
+            padding: 0 16px;
+        }
+
+        .checkout-form label {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .checkout-form input[type="text"],
+        .checkout-form input[type="number"] {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .checkout-form .btn {
+            background-color: #6a3dea;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            width: 100%;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+            .checkout-form .col-25 {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="checkout-form" style="margin-top:50px;">
+    <h2>Checkout Form</h2>
+    <form action="/Cart/Checkout" method="post">
+        <div class="row">
+            <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John M. Doe" >
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="john@example.com" >
+                <!-- Add more billing address fields here as needed -->
+
+            </div>
+
+            <div class="col-50">
+                <h3>Payment</h3>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="John More Doe" >
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" >
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September" >
+                <div class="row">
+                    <div class="col-50">
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2018" >
+                    </div>
+                    <div class="col-50">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="352" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Place Order" class="btn">
+    </form>
+</div>
+
+</body>
+</html>

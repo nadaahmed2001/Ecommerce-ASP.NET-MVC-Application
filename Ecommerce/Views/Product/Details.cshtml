@@ -1,0 +1,138 @@
+﻿@model Product
+
+<style>
+
+    #quantityInput {
+        display: none;
+        border: 2px solid #6a3dea;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+
+    .purple-button {
+        background-color: #6a3dea; 
+        border-color: #6a3dea; 
+        color: white; 
+    }
+
+
+        .purple-button:hover {
+            background-color: #5426a0;
+        }
+
+    .button-container {
+        display: flex;
+        gap: 10px;
+    }
+</style>
+
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>Product Details</h2>
+            <ol>
+               @* <li><a href="/">Back to Home</a></li>*@
+                <a asp-action="Index" asp-controller="Home" class="btn btn-primary" style="background-color: yellow; color:black; border:none;">Back to Home</a>
+
+            </ol>
+        </div>
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Portfolio Details Section ======= -->
+<section id="portfolio-details" class="portfolio-details">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-8">
+                <div class="portfolio-details-slider swiper">
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide">
+                            @{
+                                string folder = @Model.Category.Name;
+                                Console.WriteLine($"Folder name: {folder}");
+                            }
+                            <img src="~/assets/img/products/@Model.Category.Name/@Model.Image" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="portfolio-info">
+                    <h3>Product Information</h3>
+                    <ul>
+                        <li><strong>Name</strong>: @Model.Name</li>
+                        <li><strong>Category</strong>: @Model.Category.Name</li>
+                        <li><strong>Description</strong>: @Model.Description</li>
+                        <li><strong>Price</strong>: @Model.Price EGP</li>
+                        <li><strong>Available Quantity</strong>: @Model.QuantityAvailable</li>
+                    </ul>
+                </div>
+                <div class="portfolio-description">
+                    <h2>@Model.Name</h2>
+                    <p>@Model.Description</p>
+                </div>
+            </div>
+
+            <!-- Buttons section -->
+            <div class="portfolio-buttons">
+                <div class="button-container">
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <!-- Show Edit and Delete buttons for admins -->
+                        <div>
+                            <a href="@Url.Action("Edit", "Product", new { id = Model.Id })" class="btn btn-primary purple-button">Edit</a>
+                            <button class="delete-button  btn btn-primary purple-button" data-product-id="@Model.Id">Delete</button>
+                        </div>
+                    }
+
+                    <!-- Show Add to Cart button for all users -->
+                    <form asp-action="AddToCart" asp-controller="Cart" method="post" id="addToCartForm">
+                        <input type="hidden" asp-for="@Model.Id" name="productId" />
+                        <input type="number" class="form-control" id="quantityInput" name="quantity" style="display:none;" />
+
+                        <button type="button" class="btn btn-success purple-button" id="addButton">Add To Cart</button>
+                        <button type="submit" class="btn btn-success purple-button" id="Add" style="display:none;">Add</button>
+
+                        @if (TempData.ContainsKey("ErrorMessage"))
+                        {
+                            <span style="color: red;">@TempData["ErrorMessage"]</span>
+                        }
+
+                        @if (TempData.ContainsKey("SuccessMessage"))
+                        {
+                            <span style="color: Green;">@TempData["SuccessMessage"]</span>
+                        }
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Portfolio Details Section -->
+
+<script>
+    const deleteButtons = document.querySelectorAll('.delete-button');
+
+    deleteButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const productId = button.getAttribute('data-product-id');
+            const confirmDelete = confirm('Are you sure you want to delete this Product?');
+
+            if (confirmDelete) {
+                window.location.href = `/Product/Delete/${productId}`;
+            }
+        });
+    });
+
+    const addButton = document.getElementById('addButton');
+    const quantityInput = document.getElementById('quantityInput');
+    const addToCartButton = document.getElementById('Add');
+
+    addButton.addEventListener('click', () => {
+        addButton.style.display = 'none';
+        quantityInput.style.display = 'inline-block';
+        addToCartButton.style.display = 'inline-block';
+    });
+</script>

@@ -1,0 +1,87 @@
+﻿@model List<Ecommerce.Models.Cart>
+
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="col-md-8">
+            <div class="p-4" style="background-color: #6a3dea; border-radius: 8px; color: white; text-align: center;">
+                <h1 class="my-h1">Your Cart</h1>
+            </div>
+
+            @if (Model != null && Model.Count > 0)
+            {
+                <div class="p-4 mt-3" style="background-color: #fff; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total(EGP)</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var cartItem in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @cartItem.Product.Name
+                                        <br />
+                                        @cartItem.Product.Description <!-- Display product details -->
+                                    </td>
+                                    <td>@cartItem.Product.Price</td>
+                                    <td>
+                                        <form asp-action="UpdateQuantity" asp-controller="Cart" method="post" class="d-flex">
+                                            <input type="hidden" name="cartItemId" value="@cartItem.Id" />
+                                            <input type="number" name="quantity" value="@cartItem.Quantity" class="form-control" />
+                                            <button type="submit" class="btn btn-primary ml-2" style="background-color: #6d36e4;">Update</button>
+                                        </form>
+                                    </td>
+                                    <td>@(cartItem.Quantity * cartItem.Product.Price)</td>
+                                    <td>
+                                        <form asp-action="RemoveFromCart" asp-controller="Cart" method="post">
+                                            <input type="hidden" name="cartItemId" value="@cartItem.Id" />
+                                            <button type="submit" class="btn btn-danger" style="background-color: #6d36e4;">Remove</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    @if (TempData.ContainsKey("ErrorMessage"))
+                    {
+                        <span style="color: red;">@TempData["ErrorMessage"]</span>
+                    }
+                </div>
+
+                <div class="p-4 mt-3" style="background-color: #fff; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);">
+                    <div class="row">
+                        <div class="col text-right">
+                            <p>Total Cart Price: @Model.Sum(cartItem => cartItem.Quantity * cartItem.Product.Price)</p>
+                            <a asp-action="Checkout" class="btn btn-primary" style="background-color: #6d36e4;">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="p-4 mt-3" style="background-color: #fff; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);">
+                    <div class="row">
+                        <div class="col">
+                            <p>Your cart is empty.</p>
+                        </div>
+                    </div>
+                </div>
+                       
+            }
+            <br />
+            <a asp-action="Index" asp-controller="Home" class="btn btn-primary" style="background-color: yellow; color:black; border:none;">Back to Home</a>
+
+        </div>
+    </div>
+</div>

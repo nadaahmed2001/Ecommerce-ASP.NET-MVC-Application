@@ -1,0 +1,537 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Ecommerce.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Ecommerce.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\css\\MyStyle.css",
+      "PackagePath": "staticwebassets\\assets\\css\\MyStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\counts-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\counts-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\features.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\features.svg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\hero-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-img.png"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Accessories\\AC1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Accessories\\AC1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Accessories\\AC2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Accessories\\AC2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Accessories\\AC3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Accessories\\AC3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Accessories\\AC4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Accessories\\AC4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\Laptop1(3).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\Laptop1(3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\Laptop7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\Laptop7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop1(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop1(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop2(3).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop2(3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\Laptops\\laptop6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\Laptops\\laptop6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\MobilePhones\\mobile1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\MobilePhones\\mobile1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\MobilePhones\\mobile2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\MobilePhones\\mobile2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\TVs\\TV1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\TVs\\TV1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\TVs\\TV2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\TVs\\TV2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-details-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-details-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\products\\portfolio-details-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\portfolio-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\forms\\Readme.txt",
+      "PackagePath": "staticwebassets\\forms\\Readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\nadaf\\OneDrive\\Nada\\ITI .Net Training\\Week4 MVC\\FinalProject\\Final Project\\Ecommerce\\Ecommerce\\wwwroot\\forms\\contact.php",
+      "PackagePath": "staticwebassets\\forms\\contact.php"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Ecommerce.props",
+      "PackagePath": "build\\Ecommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Ecommerce.props",
+      "PackagePath": "buildMultiTargeting\\Ecommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Ecommerce.props",
+      "PackagePath": "buildTransitive\\Ecommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

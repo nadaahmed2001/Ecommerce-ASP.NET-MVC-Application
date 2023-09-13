@@ -1,0 +1,21 @@
+﻿.my-img-1 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 250px;
+}
+
+
+.custom-image {
+
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.add-product-button-container {
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center; 
+}

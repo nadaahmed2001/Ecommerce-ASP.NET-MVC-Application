@@ -1,0 +1,68 @@
+﻿@model Product
+
+@if (User.Identity.IsAuthenticated) // Admins only
+{
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="min-height: 100vh; ">
+            <div class="col-md-6" style="margin-top: 50px; margin-bottom:30px;
+">
+                <div class="p-4" style="background-color: #6a3dea; border-radius: 8px; color: white; text-align: center;  margin-top:30px;">
+                    <h1 class="my-h1">Add New Product</h1>
+                </div>
+                <div class="p-4 mt-3" style="background-color: #fff; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);">
+                    <form asp-action="SaveNew" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">Product Name:</label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <!-- Image upload input -->
+                        <div class="mb-3">
+                            <label asp-for="Image" class="form-label">Product Image:</label>
+                            <input type="file" name="ImageFile" class="form-control" />
+                            <span asp-validation-for="Image" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label">Description:</label>
+                            <textarea asp-for="Description" class="form-control"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Price" class="form-label">Price (EGP):</label>
+                            <input asp-for="Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="QuantityAvailable" class="form-label">Available Quantity:</label>
+                            <input asp-for="QuantityAvailable" class="form-control" />
+                            <span asp-validation-for="QuantityAvailable" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CategoryId" class="form-label">Category:</label>
+                            <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.categories, "Id", "Name"))" class="form-control"></select>
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        </div>
+
+
+
+
+
+                        <div class="add-product-button-container">
+                   <button type="submit" class="btn btn-primary" style="background-color: #6a3dea; border-color: #6a3dea">Save</button>
+                       <a asp-controller="Home" asp-action="Index" class="btn btn-primary" style="background-color: #6a3dea; border-color: #6a3dea; margin-left: 10px;">Back to List</a>
+                        </div>
+
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,43 @@
+﻿@model Ecommerce.Models.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="col-md-6">
+            <div class="p-4" style="background-color: #6d36e4; border-radius: 8px; color: white; text-align: center;">
+                <h1 class="my-h1">Login</h1>
+            </div>
+            <div class="p-4 mt-3" style="background-color: #fff; border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);">
+                <form asp-action="Login" method="post">
+                    @Html.HiddenFor(x => x.ReturnUrl)
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    @if (ViewBag.Message != null)
+                    {
+                        <span style="color: red;">@ViewBag.Message</span>
+
+                    }
+
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Username:</label>
+                        <input class="form-control" type="text" name="userName" placeholder="userName" />
+                        <span asp-validation-for="userName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">Password:</label>
+                        <input class="form-control" type="password" name="password" placeholder="password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-primary" style="background-color: #6d36e4;">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
