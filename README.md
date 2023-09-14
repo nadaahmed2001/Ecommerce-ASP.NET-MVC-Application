@@ -56,7 +56,7 @@ To run the application locally, follow these steps:
    git clone https://github.com/nadaahmed2001/Ecommerce-ASP.NET-MVC-Application
 
 2.  Open the project in your preferred development environment (e.g., Visual Studio).
-3.  Update the database connection settings in the appsettings.json file. Change the server name and database name accordingly:
+3.  Update the database connection settings in the appsettings.json file. Change the server name and database name accordingly: (Also I have added a backup file for the database you can restore it but this is optional)
      ```bash
     "ConnectionStrings": {
         "DefaultConnection": "Server=your-server-name;Database=your-database-name;Trusted_Connection=True;MultipleActiveResultSets=true"
